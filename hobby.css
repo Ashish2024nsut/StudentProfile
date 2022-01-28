@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin : 0px;
+    box-sizing: border-box;
+}
+/* rgb(182, 118, 242) */
+.navBar{
+    height: 50px;
+    background-color: rgb(122, 27, 211);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.navig{
+    list-style: none;
+    display: flex;
+    gap:130px;
+    font-size: 1.5em;
+}
+
+.navig a {
+    color : white;
+}
+nav h1{
+    display: inline;
+    text-decoration: underline;
+}
+
+.present_pg{
+    text-decoration: underline;
+    /* text-decoration-color :rgb(53, 1, 53); */
+}
+
+.container{
+    text-align:center;
+}
+
+.container h1{
+    font-size: 50px;
+    margin:50px;
+}
+
